@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import {useEffect, useState} from 'react'
 import styles from '../styles/Home.module.css'
-import Downloader from '../components/Downloader'
+import Downloader from '../Components/Downloader'
 import { projectStorage } from '../firebase/config'
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
 
