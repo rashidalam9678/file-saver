@@ -1,0 +1,16 @@
+.Downloader{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Downloader button{
+    background-color: rgb(45, 163, 241);
+    color: white;
+    font-weight: 500;
+    padding: 15px 20px;
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
