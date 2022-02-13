@@ -24,11 +24,8 @@ export default function Home() {
   return (
     
     <div className={styles.container}>
-      <div>{imageURL ? <img width='300px' height='300px' src={imageURL} alt=" image not found" />: <h2>Loading Image ...</h2>}</div>
+      <div>{imageURL ? <img width='300px' height='300px' src={imageURL} alt=" image not found" />: <h3>Loading Image ...</h3>}</div>
       <Downloader url={imageURL}/>
-      
-      
-
     </div>
   )
 }
